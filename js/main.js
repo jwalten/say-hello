@@ -1,15 +1,8 @@
-function onPress_ENTER()
-{
-        var keyPressed = event.keyCode || event.which;
+function givename() {
+  var person = document.getElementById('inputname').value;
+  var name;
 
-        //if ENTER is pressed
-        if(keyPressed==13)
-        {
-            alert('enter pressed');
-            keyPressed=null;
-        }
-        else
-        {
-            return false;
-        }
+  if(person == '') {
+  text = "No name detected, type name."
+  }
 }
